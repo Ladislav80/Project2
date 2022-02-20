@@ -108,6 +108,9 @@ while True:
         time.sleep(5)
         sys.exit("Zvítězil jsi, hra se ukončuje")
     pr()
+    #ted je tady ta chyba - cows jsem v zadani chapal jen jako promennou k ulozeni poctu stejnych cifer v obou cislech
+    #kdyz od cows odectu bulls dostanu hodnotu pozadovanou v zadani
+    co -=bu
     print(f"bulls:{bu}, cows: {co} \n")
     pr()
 
